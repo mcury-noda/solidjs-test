@@ -4,7 +4,7 @@ import { Router, Route, A } from '@solidjs/router';
 
 import './index.css';
 import App from './App';
-import Home from './pages/Default';
+import Home from './pages/Home';
 import Default from './pages/Default';
 import Map from './pages/Map';
 
@@ -20,7 +20,7 @@ render(() => (
   <Router root={App} base='solidjs-test'>
     <Route path="/default" component={Default} />
     <Route path="/map" component={Map} />
-    {/* <Route path="/" component={App} /> */}
+    <Route path="/home" component={Home} />
   </Router>
 )
 

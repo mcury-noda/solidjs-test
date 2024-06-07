@@ -1,16 +1,15 @@
 import type { Component } from 'solid-js';
 
-
 import styles from '../App.module.css';
 import logo from '../logo.svg';
+import Counter from '../components/ReactiveSample/Counter';
 
 const Home: Component = (props: any) => {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        Homeです
-      </header>
-  </div>
+    <div>
+      <h3>Homeです</h3>
+      <Counter/>
+    </div>
   )
 }
 

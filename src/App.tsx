@@ -8,8 +8,8 @@ import styles from './App.module.css';
 const App: Component = (props: any) => {
   return (<>
     <nav>
-      <A href="/default">Default</A>
-      <A href="/">Home</A>
+      <A href="/default">Default</A><i> </i>
+      <A href="/home">Home</A><i> </i>
       <A href="/map">Map</A>
     </nav>
     <h1>solidjs-test</h1>

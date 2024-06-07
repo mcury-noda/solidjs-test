@@ -1,6 +1,6 @@
 // MapComponent.tsx
 
-import { createEffect } from 'solid-js';
+import { createEffect, createSignal } from 'solid-js';
 import maplibregl from 'maplibre-gl';
 
 const Map = () => {
